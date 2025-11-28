@@ -30,5 +30,5 @@ for($x=0;$x<count($jenis_pakaian);$x++){
     }
 }
 
-header("location:transaksi.php");
+echo "<script>alert('Data Tersimpan'); window.location.href='transaksi.php'</script>";
 ?>
